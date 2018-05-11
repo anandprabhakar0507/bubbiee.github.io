@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>5.adunare</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<form name=myform>
+		<center>
+			<input id="numar" type="text" name="btn1">
+			<input id="numar" type="text" name="btn2">
+		</center>
+		<center>
+			<input id="buton" type="button" name="btn4" value="ADD" onclick="addnum(btn1.value,btn2.value)">
+			<input id="buton" type="button" name="btn4" value="SUBSTRACT" onclick="subnum(btn1.value,btn2.value)">
+		</center>
+		<center>
+			<input id="afiseaza" type="text" name="btn3">
+		</center>
+		<center>
+			<input type="reset" id="buton">
+		</center>
+	</form>
+<script type="text/javascript">
+	function addnum(n1,n2){
+		var no1 = parseFloat(n1)
+		var no2 = parseFloat(n2)
+		var no3 = no1 + no2
+		myform.btn3.value = no3
+	}
+	function subnum(n1,n2){
+		var no1 = parseFloat(n1)
+		var no2 = parseFloat(n2)
+		var no3 = no1 - no2
+		myform.btn3.value = no3
+	}
+</script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+body {
+	background-image: url('background.jpg');
+	background-size: cover;
+}
+form{
+	max-width: 100%;
+	padding: 10px;
+	font-family: Arial;
+	position: absolute;
+	top: 35%;
+	right: 0;
+	left: 0;
+	margin: 0;
+}
+#numar {
+	width: 300px;
+	background-color: #b3d9ff;
+	margin: 0;
+	padding: 0;
+	color: #00264d;
+	font-size: 50px;
+	text-align: center;
+	height: 70px;
+}
+#afiseaza {
+	width: 300px;
+	background-color: #b3d9ff;
+	margin: 0;
+	padding: 0;
+	color: #00264d;
+	font-size: 50px;
+	text-align: center;
+}
+#buton {
+	width: 250px;
+	height: 70px;
+	background-color: #0059b3;
+	margin: 0;
+	padding: 0;
+	font-size: 40px;
+}
+#buton:hover{
+	background-color: #4da6ff;
+}
